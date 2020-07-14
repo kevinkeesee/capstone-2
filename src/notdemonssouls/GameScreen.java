@@ -146,8 +146,8 @@ public class GameScreen extends JPanel implements KeyListener {
 					switch(arg0.getKeyCode()) {
 						case KeyEvent.VK_SPACE:
 							Reference.dregling.takeDamage(Reference.player.getAttack());
-							Reference.currentGraphic.changeFile(3);
 					}
+					Reference.currentGraphic.changeFile(3);
 					Reference.oneStep = false;
 						
 				} else if(Reference.dregling.isStunned()) {
